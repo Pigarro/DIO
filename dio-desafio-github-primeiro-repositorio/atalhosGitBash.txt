@@ -1,0 +1,55 @@
+atalhos do prompt de comando
+
+dir --> lista aqrquivos na pasta
+
+cd / --> vai para a root do disco
+
+cd.. --> volta um nível de pasta
+
+cd nomeDaPasta --> abre a pasta 
+
+mkdir nomeDir --> cria pasta
+
+echo helloWorld --> print 
+
+echo texto > arquivo.*** --> cria um aquivo com o text
+
+del arquivo.*** --> deleta o arquivo
+
+rmdir pasta --> apaga pasta
+
+rmdir pasta /S /Q --> força apagar sem perguntar nada
+
+
+-----------
+git bash
+
+ctrl+L --> limpa a tela
+mv arquivo.*** ./pasta/ --> move arquivo para pasta
+ls -a --> mostra pasta ocultas
+
+ls --- dir --> lista arquivos da pasta
+pwd --> mostra caminho completo da pasta
+
+openssl sha1  arquivo.*** --> cria chave de 40 digitos
+ssh-keygen -t ed25519 -C marcofuganti@hotmail.com --> gera chave SSH
+$ eval $(ssh-agent -s) --> gerar agente 
+$ ssh-add id_ed25519 -- > entregar chave privada pro agente
+
+git init
+git config --global user.email "marcofuganti@hotmail.com"
+git config --global user.name MarcoFuganti
+git config --list
+git add *  --> "adiciona todos os
+git add .  --> arquivos para a
+git add -A --> fila de unstaged"
+git commit -m "msg explicativa" --> faz o commit dos arquivos
+git status
+git remote -v --> verifica origem git
+git remote remove origin 
+git remote add origin https://github.com......
+git clone https://github.com.....
+git push origin main
+
+
+ 

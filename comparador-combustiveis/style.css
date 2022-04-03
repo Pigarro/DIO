@@ -1,0 +1,51 @@
+* {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(241, 225, 194);
+  font-size: 15px;
+  padding: 75px;
+  width: auto;
+}
+h1 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+img {
+}
+#first {
+  font-size: 25px;
+  text-align: center;
+}
+#formulario {
+  width: auto;
+  align-content: center;
+}
+#instrucao {
+  align-content: left;
+}
+input,
+button {
+  font-size: 14px;
+  align-content: center;
+}
+
+#botao-calcular {
+  border: 1px solid;
+  border-radius: 3px;
+  align-content: center;
+}
