@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-fluid #titulo{
+    justify-items: center;
+}
+
+#map
+
+#map, #set {
+    margin-top: 40px;
+    margin-left: 50px;
+    
+}
+#clear_admins {
+    display: none;
+}
